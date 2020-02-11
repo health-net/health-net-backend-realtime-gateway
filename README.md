@@ -26,8 +26,8 @@ npm install
 
 ## Details
 ### Environment Variables
-| Name         | Description      | Default value |   |   |
-|--------------|------------------|---------------|---|---|
-| SERVICE_PORT | The service port |  3000         |   |   |
-| BROKER_HOST  | The broker host  | localhost     |   |   |
-| BROKER_PORT  | The broker port  | 1883          |   |   |
+| Name         | Description      | Default value |
+|--------------|------------------|---------------|
+| SERVICE_PORT | The service port |  3000         |
+| BROKER_HOST  | The broker host  | localhost     |
+| BROKER_PORT  | The broker port  | 1883          |
