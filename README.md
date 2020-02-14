@@ -21,8 +21,15 @@ npm install
 
 ## Deployment
 
-1. Add valid public-key.pem certificate in /keys
-2. Set environment variables inline and run service
+1. Compile TypeScript
+```
+npm run tsc
+```
+2. Add valid public-key.pem certificate in /keys
+3. Set environment variables inline and run service
+```
+SERVICE_PORT=3000 ... npm start
+```
 
 ## Details
 ### Environment Variables
