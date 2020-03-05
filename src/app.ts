@@ -7,7 +7,7 @@ import mqtt from 'mqtt';
 import { Broker } from './broker';
 import { authorize } from './authorization';
 
-const port = process.env.SERVICE_PORT || 3000;
+const port = process.env.PORT || 3000;
 const brokerHost = process.env.BROKER_HOST || 'localhost';
 const brokerPort = (process.env.BROKER_PORT !== undefined) ? parseInt(process.env.BROKER_PORT) : 1883;
 
