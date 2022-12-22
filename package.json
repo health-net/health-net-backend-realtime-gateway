@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/health-net/health-net-backend-iot-gateway#readme",
   "dependencies": {
-    "jsonwebtoken": "^8.5.1",
+    "jsonwebtoken": "^9.0.0",
     "mqtt": "^3.0.0",
     "ws": "^7.2.1"
   },
